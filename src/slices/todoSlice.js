@@ -10,7 +10,7 @@ const getInitialTodo = () => {
 };
 
 const initialValue = {
-  todoList: getInitialTodos(),
+  todoList: getInitialTodo(),
 };
 
 export const todoSlice = createSlice({
